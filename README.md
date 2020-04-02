@@ -44,3 +44,11 @@ cat test_0.log | ./lopu.py --first 10
 ./lopu.py --ipv4 --last 50 test_5.log
 <prints any of the last 50 lines from test_5.log that contain an IPv4 address>
 ```
+
+## Testcases
+
+To execute our suite of unit tests, execute the following command:
+
+```
+python3 -m unittest tests/test_util.py
+```
