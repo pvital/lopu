@@ -3,6 +3,8 @@
 lopu is a Python CLI application that helps you parse log files of various
 kinds.
 
+![testing](https://github.com/pvital/lopu/workflows/testing/badge.svg)
+
 ```
 Usage: ./lopu.py [OPTION]... [FILE]
     -h, --help          Print help
