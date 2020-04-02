@@ -8,7 +8,7 @@
 import unittest
 
 
-import util as target
+import lopu as target
 
 
 class CommandLineTestCase(unittest.TestCase):
@@ -21,9 +21,9 @@ class CommandLineTestCase(unittest.TestCase):
         cls.parser = parser
 
 
-class TestUtil(CommandLineTestCase):
+class TestLopu(CommandLineTestCase):
     '''
-    Test Util script
+    Test lopu script
     '''
 
     @unittest.skip('not covered by main tests')
@@ -35,7 +35,7 @@ class TestUtil(CommandLineTestCase):
         result = target.parse_log(args)
         self.assertEqual(result,
             '''
-usage: util.py [OPTION]... [FILE]
+usage: lopu.py [OPTION]... [FILE]
 
 log parsing utility.
 
@@ -59,7 +59,7 @@ optional arguments:
         '''
         args = self.parser.parse_args(['--version'])
         result = target.parse_log(args)
-        self.assertEqual(result,'util.py version 1.01')
+        self.assertEqual(result,'lopu.py version 1.01')
 
     def test_head(self):
         '''
