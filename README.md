@@ -5,6 +5,7 @@ kinds.
 
 ![testing](https://github.com/pvital/lopu/workflows/testing/badge.svg)
 [![Build Status](https://travis-ci.org/pvital/lopu.svg?branch=master)](https://travis-ci.org/pvital/lopu)
+[![codecov.io](https://codecov.io/gh/pvital/lopu/coverage.svg?branch=master)](https://codecov.io/gh/pvital/lopu)
 
 ```
 Usage: ./lopu.py [OPTION]... [FILE]
