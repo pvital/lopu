@@ -4,6 +4,7 @@ lopu is a Python CLI application that helps you parse log files of various
 kinds.
 
 ![testing](https://github.com/pvital/lopu/workflows/testing/badge.svg)
+[![Build Status](https://travis-ci.org/pvital/lopu.svg?branch=master)](https://travis-ci.org/pvital/lopu)
 
 ```
 Usage: ./lopu.py [OPTION]... [FILE]
@@ -52,5 +53,5 @@ cat test_0.log | ./lopu.py --first 10
 To execute our suite of unit tests, execute the following command:
 
 ```
-python3 -m unittest tests/test_util.py
+python3 -m unittest tests/test_lopu.py
 ```
