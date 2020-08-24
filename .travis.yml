@@ -1,0 +1,12 @@
+# Ubuntu 18.04 Bionic support
+os:
+    - linux
+dist: bionic
+
+language: python
+python:
+    - "3.8"
+
+script:
+    - python3 -m unittest tests/test_lopu.py
+
